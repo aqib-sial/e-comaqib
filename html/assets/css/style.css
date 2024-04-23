@@ -1,0 +1,651 @@
+@font-face {
+    font-family: 'Playfair Sc Bold';
+    src: url(../fonts/PlayFairSc/PlayfairDisplaySC-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Inter Regular';
+    src: url(../fonts/inter/Inter-Regular.ttf);
+}
+
+/* ===========Global Styling======== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-size: 74px;
+    line-height: 80px;
+    font-weight: 400;
+    font-family: 'Playfair Sc Bold';
+}
+
+h2 {
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 54px;
+    font-family: 'Playfair Sc Bold';
+
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 45px;
+    font-family: 'Playfair Sc Bold';
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: 'Playfair Sc Bold';
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    font-family: 'Playfair Sc Bold';
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'Playfair Sc Bold';
+}
+
+p {
+    font-family: 'Inter Regular';
+}
+
+/* ==========Nav Bar=========== */
+.navbar i {
+    font-size: 25px;
+    color: white;
+}
+
+.scrolled {
+    background-color: #000000;
+}
+
+
+
+.show,
+.open-aside {
+    display: none;
+}
+
+.open-aside {
+    padding: 3px 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 25px;
+    color: black;
+}
+
+.right-sidebar {
+    width: 280px;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: -355px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 20px;
+    z-index: 99;
+    background-color: #fff;
+}
+
+header form input.form-control,
+header form input.form-control:focus {
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+    padding: 0px 30px;
+    outline: none;
+}
+
+
+header form input.form-control::placeholder {
+    color: white;
+}
+
+.navbar i.bi-search {
+    font-size: 20px;
+    line-height: 2;
+    margin-right: -20px;
+}
+
+header .navbar a {
+    color: white;
+}
+
+/* ======== Aside Menu */
+.offcanvas.offcanvas-start {
+    width: 288px !important;
+}
+
+
+
+/* ============ 1.1 Hero Section============ */
+#Hero {
+    height: fit-content;
+}
+
+#Hero h1 {
+    font-size: 96px;
+    color: white;
+}
+
+
+#Hero .carousel-item {
+    height: 100vh;
+}
+
+#Hero .carousel-item:first-child {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/index/hero2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Hero .carousel-item:nth-child(2) {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/index/hero2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Hero .carousel-item:nth-child(3) {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/index/hero2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Hero .carousel-item div {
+    margin: 100px 70px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#Hero .carousel-item div p {
+    padding: 0px 200px 0px 0px;
+    color: #c8c1c1;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#Hero .carousel-item div a {
+    text-decoration: none;
+    width: fit-content;
+    color: white;
+    background-color: gray;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+/* ========== 1.1.1 Hero ooter ========= */
+#Herofooter {
+    margin-top: 20px;
+    background-color: #6D9886;
+    padding: 20px 0px;
+}
+
+#Herofooter p {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+#Herofooter figure {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 0;
+}
+
+#Herofooter figure img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+/* !-- =====  1.2 Catalog   Start  ======  */
+#Catalog .catalog-p {
+    padding-left: 60px;
+
+}
+
+#Catalog {
+    padding: 100px 0px;
+
+}
+
+#Catalog .col-lg-4 img {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+#Catalog .col-lg-3 img {
+    width: 100%;
+    height: 520px;
+}
+
+.col-lg-4,
+.col-lg-3 {
+    position: relative;
+    overflow: hidden;
+}
+
+.col-lg-4 figure,
+.col-lg-3 figure {
+
+    position: relative;
+}
+
+.col-lg-4 figure img,
+.col-lg-3 figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    /* transition: filter 0.3s ease; */
+}
+
+.col-lg-4 .shop-now button,
+.col-lg-3 .shop-now button {
+    padding: 10px 20px;
+    background: #F2E7D5;
+    color: #000000;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.col-lg-4 figure .shop-now,
+.col-lg-3 figure .shop-now {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+}
+
+.col-lg-4 figure:hover img,
+.col-lg-3 figure:hover img {
+    filter: blur(5px);
+}
+
+.col-lg-4 figure:hover .shop-now,
+.col-lg-3 figure:hover .shop-now {
+    opacity: 1;
+}
+
+/* !-- =====  1.2 Catalog  End  ======  */
+
+
+/* ============ 1.4 Our Products Section============ */
+#Products {
+    padding: 100px 0px;
+}
+
+#Products h1 {
+    padding: 0px 0px 30px 0px;
+    text-align: center;
+}
+
+#Products .slider {
+    overflow: hidden;
+}
+
+#Products .slide-track {
+    display: flex;
+    width: calc(250px * 10);
+    animation: scrol 20s linear infinite;
+}
+
+#Products .slide-rev {
+    animation-direction: reverse;
+
+}
+
+#Products .slide-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scrol {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(calc(-250px * 5));
+
+    }
+}
+
+#Products .slide-track .slide {
+    padding: 10px;
+}
+
+
+
+
+
+#Products figure {
+    width: 250px;
+    margin: 0;
+    overflow: hidden;
+}
+
+#Products figure img {
+    width: 100%;
+}
+
+#Products .p-hover {
+    position: absolute;
+    bottom: -160px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    background-color: #6D988691;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#Products .p-hover i {
+    color: #ffd600;
+}
+
+#Products figure:hover .p-hover {
+    bottom: 0px;
+}
+
+#Products .p-hover p {
+    margin-bottom: 0px;
+}
+
+
+
+
+/* ======================section 1.5 ======================= */
+
+#Cards {
+    padding: 100px 0px;
+}
+
+#Cards p {
+    font-size: 13px;
+}
+
+#Cards .row .col-lg-6:first-child div {
+    position: relative;
+
+    background-color: #DFC3AE;
+}
+
+
+#Cards .row .col-lg-6:nth-child(2) div {
+    position: relative;
+
+    background-color: #A9A9AB;
+
+}
+
+
+#Cards .col-lg-6 .lowerdiv {
+
+    margin-top: 80px;
+    display: flex;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#Cards .col-lg-6 .lowerdiv a {
+    color: black;
+    text-decoration: none;
+    margin: 0px 10px;
+    cursor: pointer;
+
+}
+
+#Cards .col-lg-6 .lowerdiv a:hover {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+#Cards .col-lg-6 .lowerdiv i {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+@media screen and (max-width: 480px) {
+
+
+    #Cards .col-lg-6 .lowerdiv {
+        text-align: left;
+
+        display: block;
+    }
+}
+
+
+
+
+
+#Cards figure {
+    width: 230px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+    right: 0px;
+}
+
+#Cards figure img {
+    width: 100%;
+}
+
+#Cards .d-flex div:first-child {
+    position: relative;
+    padding: 80px 160px 30px 10px;
+}
+
+
+
+/* ========================= section 1.6 ( Watches)============================= */
+
+#Watches .card {
+    border-radius: 40px;
+
+}
+
+#Watches .col-lg-7 figure img {
+    width: 100%;
+
+}
+
+#Watches .col-lg-5 figure img {
+    width: 100%;
+    height: 925px;
+}
+
+#Watches figure {
+    margin-bottom: 0px;
+}
+
+#Watches .card .card-body {
+    background-color: #9F9F9F;
+
+}
+
+#Watches .card i {
+    color: #FFD600;
+    margin-top: 12px;
+
+}
+
+/*  ======================== section 1.7(Testimonialmonial section)========================*/
+#Testimonial {
+    padding: 100px 0px;
+}
+
+#Testimonial p {
+    font-size: 13px;
+    text-align: left;
+}
+
+#Testimonial .col-lg-6 div {
+    background-color: #D9D9D9;
+
+}
+
+#Testimonial i {
+    color: #FFD600;
+    /* gap: 10; */
+    margin: 4px;
+    font-size: 20px;
+}
+
+#Testimonial figure {
+    /* margin-bottom: -10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin-bottom: 0px;
+    padding-left: 10px;
+
+}
+
+@media screen and (max-width: 480px) {
+
+    #Testimonial .border {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+}
+
+/* =====  . Footer Start  ====== */
+footer {
+    padding: 100px 0px;
+    background: #393E46;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    margin-bottom: 6px;
+
+}
+
+footer h4 {
+    margin-bottom: 20px;
+}
+
+
+
+footer p,
+footer h4,
+footer h5 {
+    color: #FFFFFF;
+}
+
+footer input {
+
+    border: none;
+    padding: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 75%;
+}
+
+footer button {
+    width: 25%;
+    background: #6D9886;
+    padding: 10px;
+    margin-left: -10px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+footer input::placeholder {
+    padding-left: 20px;
+
+}
+
+footer hr {
+    border: 1px solid #FFFFFF;
+
+}
+
+footer .fa-instagram {
+    border: 1px solid #E4405F;
+    padding: 5px;
+    border-radius: 50%;
+    color: #E4405F;
+
+}
+
+footer .fa-facebook {
+    border: 1px solid #1877F2;
+    padding: 5px;
+    border-radius: 50%;
+    color: #1877F2;
+
+}
+
+footer .fa-twitter {
+    border: 1px solid #1DA1F2;
+    padding: 5px;
+    border-radius: 50%;
+    color: #1DA1F2;
+
+}
+
+footer .fa-youtube {
+    border: 1px solid #FF0000;
+    padding: 5px;
+    border-radius: 50%;
+    color: #FF0000;
+
+}
+
+footer .fa-linkedin-in {
+    border: 1px solid #0077B5;
+    padding: 5px;
+    border-radius: 50%;
+    color: #0077B5;
+
+}
+
+/* =====  . Footer End  ====== */
