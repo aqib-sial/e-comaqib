@@ -645,7 +645,20 @@ footer .fa-linkedin-in {
     padding: 5px;
     border-radius: 50%;
     color: #0077B5;
-
 }
 
+
 /* =====  . Footer End  ====== */
+
+
+/* ===================== prodcut detail section ========== */
+
+ #Prodcut-detail {
+ margin-top: 34px;
+} 
+
+#Prodcut-detail .m-0 img{
+    height: 134px;
+    width: 151x;
+
+}
