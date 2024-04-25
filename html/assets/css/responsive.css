@@ -101,3 +101,22 @@
     }
 
 }
+
+/* <!-- ============ 2.4 products Section ============== --> */
+@media screen and (max-width: 480px) {
+
+    #Products-card .cards1 {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #Products-card .cards1 {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+/* <!-- ============ 2.4 products Section end============== --> */
