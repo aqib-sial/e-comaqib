@@ -514,9 +514,14 @@ header .navbar a {
     padding: 100px 0px;
 }
 
+#Testimonial h3 {
+    margin-bottom: 0;
+}
+
 #Testimonial p {
-    font-size: 13px;
-    text-align: left;
+    /* font-size: 13px; */
+    /* text-align: left; */
+    margin: 0;
 }
 
 #Testimonial .col-lg-6 div {
@@ -526,31 +531,28 @@ header .navbar a {
 
 #Testimonial i {
     color: #FFD600;
-    /* gap: 10; */
-    margin: 4px;
+    margin: 0px 4px;
     font-size: 20px;
 }
 
 #Testimonial figure {
-    /* margin-bottom: -10px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* text-align: center; */
+    border-radius: 50%;
     margin-bottom: 0px;
-    padding-left: 10px;
-
+    width: 100px;
 }
 
-@media screen and (max-width: 480px) {
-
-    #Testimonial .border {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        gap: 10px;
-    }
+#Testimonial .rev-img figure {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
 }
+
+#Testimonial figure img {
+    width: 100%;
+    height: 100%;
+}
+
 
 /* =====  . Footer Start  ====== */
 footer {
@@ -653,11 +655,11 @@ footer .fa-linkedin-in {
 
 /* ===================== prodcut detail section ========== */
 
- #Prodcut-detail {
- margin-top: 34px;
-} 
+#Prodcut-detail {
+    margin-top: 34px;
+}
 
-#Prodcut-detail .m-0 img{
+#Prodcut-detail .m-0 img {
     height: 134px;
     width: 151x;
 
