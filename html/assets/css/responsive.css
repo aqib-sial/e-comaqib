@@ -92,12 +92,25 @@
     }
 }
 
+
+
+
+
+
+
+/*   ================= product detail section ================== */
+
 @media screen and (max-width: 400px) {
 
-    /* ========= 1.1 Hero Section Rresponsiveness at 400px Start ========== */
-    #Hero h1 {
-        font-size: 44px;
-        line-height: 50px;
+    /* ========= 3.1 product detail Rresponsiveness at 400px Start ========== */
+    #Prodcut-detail select{
+        margin-bottom: 12px;
+    }
+    #Prodcut-detail img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }

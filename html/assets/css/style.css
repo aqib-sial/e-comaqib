@@ -246,19 +246,19 @@ header .navbar a {
     height: 520px;
 }
 
-.col-lg-4,
+#Catalog .col-lg-4,
 .col-lg-3 {
     position: relative;
     overflow: hidden;
 }
 
-.col-lg-4 figure,
+#Catalog .col-lg-4 figure,
 .col-lg-3 figure {
 
     position: relative;
 }
 
-.col-lg-4 figure img,
+#Catalog .col-lg-4 figure img,
 .col-lg-3 figure img {
     display: block;
     width: 100%;
@@ -266,8 +266,8 @@ header .navbar a {
     /* transition: filter 0.3s ease; */
 }
 
-.col-lg-4 .shop-now button,
-.col-lg-3 .shop-now button {
+#Catalog .col-lg-4 .shop-now button,
+#Catalog .col-lg-3 .shop-now button {
     padding: 10px 20px;
     background: #F2E7D5;
     color: #000000;
@@ -279,7 +279,7 @@ header .navbar a {
     transition: background-color 0.3s ease;
 }
 
-.col-lg-4 figure .shop-now,
+#Catalog .col-lg-4 figure .shop-now,
 .col-lg-3 figure .shop-now {
     position: absolute;
     top: 50%;
@@ -290,13 +290,13 @@ header .navbar a {
     text-align: center;
 }
 
-.col-lg-4 figure:hover img,
-.col-lg-3 figure:hover img {
+#Catalog .col-lg-4 figure:hover img,
+#Catalog .col-lg-3 figure:hover img {
     filter: blur(5px);
 }
 
-.col-lg-4 figure:hover .shop-now,
-.col-lg-3 figure:hover .shop-now {
+#Catalog .col-lg-4 figure:hover .shop-now,
+#Catalog .col-lg-3 figure:hover .shop-now {
     opacity: 1;
 }
 
@@ -660,5 +660,79 @@ footer .fa-linkedin-in {
 #Prodcut-detail .m-0 img{
     height: 134px;
     width: 151x;
+    cursor: pointer;
 
+}
+#Prodcut-detail .main-image-container{
+  
+    cursor: pointer;
+     /*height: 400px; Adjust the height as needed */
+    overflow: hidden; /* Hide any overflow content */
+}
+#Prodcut-detail figure img{
+    width: 100%; /* Ensure the image fills its container horizontally */
+    height: auto;
+    cursor: pointer;
+    height: 500px;
+}
+
+
+#Prodcut-detail i{
+    color:#FFD600;
+    
+}
+
+
+#Prodcut-detail button{
+    width: 122px;
+    margin: 23px 30px 23px 0px;
+    height: 40px;
+}
+#Prodcut-detail button a{
+    text-decoration: none;
+    color: #000000;
+  
+}
+
+#Prodcut-detail button  .btn1{
+    background: transparent;
+    
+}
+#Prodcut-detail  .btn2 { 
+       background-color: #393E46;
+       color: #D9D9D9;
+       /* padding: 45px; */
+       color: white;
+       border: none;
+
+}
+/*       ================related product section =========================== */
+#Related-product{
+ 
+ 
+}
+#Related-product figure{
+    margin-bottom: 0;
+}
+
+#Related-product .card-body{
+    background-color: #9F9F9F;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+} 
+
+#Related-product .card-body i{
+    color: #FFD600;
+    
+}
+
+#Related-product .card-body a{
+    text-decoration: none;
+    color: #444040;
+    
 }
